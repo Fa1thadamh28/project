@@ -6,7 +6,7 @@ public static void main(String args[])
   
  for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed  
  {  
-  n3=n1+n2;  
+  x3=x1+x2;  
   System.out.print(" "+x3);  
   x1=x2;  
   x2=x3;  
