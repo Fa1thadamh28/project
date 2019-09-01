@@ -1,0 +1,32 @@
+From 70fcf7d6408c8d976a04f342ce60c89170f3a91d Mon Sep 17 00:00:00 2001
+From: Jerry Mouse <jerry@tutorialspoint.com>
+Date: Sun, 1 Sep 2019 03:11:56 +0000
+Subject: [PATCH] 18 Patch Operation - last Basics
+
+---
+ src/FibonacciExample2.java | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/src/FibonacciExample2.java b/src/FibonacciExample2.java
+index d0b65a7..29d186d 100644
+--- a/src/FibonacciExample2.java
++++ b/src/FibonacciExample2.java
+@@ -1,12 +1,13 @@
+ class FibonacciExample1{
+ public static void main(String args[])
+ {  
+- int x1=0,x2=1,x3,i,count=20;  
++// for 18 Git Patch operation
++ int x1=0,x2=1,x3,i,count=10;  
+  System.out.print(x1+" "+x2);//printing 0 and 1  
+   
+  for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed  
+  {  
+-  m3=m1+m2;  
++  x3=x1+x2;  
+   System.out.print(" "+x3);  
+   x1=x2;  
+   x2=x3;  
+-- 
+2.22.0
+
